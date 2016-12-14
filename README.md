@@ -2,11 +2,11 @@
 
 This is the source code of the flight controller software for a ChipKit Uno32, that we used in our drone project for the IS1500 Computer Science & Components course at the Royal Institute of Technology in Stockholm, Sweden.
 
-![Quadcopter](https://github.com/matys18/chipcopter/quad.jpg)
+![Quadcopter](https://github.com/matys18/chipcopter/blob/master/quad.jpg)
 
 ### Details
 
-The drone receives input from the gyro (see gyro.c) and the controller (see timer.c) and uses the PID control algorithm to balance the quadcopter (see pid.c).
+The drone receives input from the gyro (see [gyro.c](https://github.com/matys18/chipcopter/blob/master/gyro.c)) and the controller (see [timer.c](https://github.com/matys18/chipcopter/blob/master/timer.c)) and uses the PID control algorithm to balance the quadcopter (see [pid.c](https://github.com/matys18/chipcopter/blob/master/pid.c)).
 
 If you have any questions, open an issue or email us at matas.kairaitis@gmail.com 
 
