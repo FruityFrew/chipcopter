@@ -1,9 +1,18 @@
-This is an empty project template.
-Just add your own code to the existing C or assembly files.
-Any added C or assembly files will automatically be built,
-no need to edit the Makefile.
+# Chipcopter
 
-The template contains the following source files:
+This is the source code of the flight controller software for a ChipKit Uno32, that we used in our drone project for the IS1500 Computer Science & Components course at the Royal Institute of Technology in Stockholm, Sweden.
+
+![Quadcopter](https://github.com/matys18/chipcopter/quad.jpg)
+
+### Details
+
+The drone receives input from the gyro (see gyro.c) and the controller (see timer.c) and uses the PID control algorithm to balance the quadcopter (see pid.c).
+
+If you have any questions, open an issue or email us at matas.kairaitis@gmail.com 
+
+### Structure
+
+The code is based on the [project-template](https://github.com/is1200-example-projects/project-template). The template contains the following source files:
 
 main.c:
 	Contains the entry point main()
